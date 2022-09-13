@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* generale */
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.separator {
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0px;
+}
+
+.btn-primary {
+  background: white;
+  color: #333;
+}
+
+.btn-primary:hover {
+  background: #333;
+  color: white;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* header section */
+.header {
+  background-color: #333;
+  overflow: auto;
+  line-height: 1.7em;
+}
+
+.nav-brand {
+  float: left;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.nav-brand a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation {
+  float: right;
+  list-style: none;
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.nav-link:hover,
+.active {
+  background: #444;
+}
+
+/* section vp */
+.vp {
+  height: 100vh;
+  background-image: url(../images/frame.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.vp-content {
+  padding: 20px;
+  padding-top: 70px;
+  max-width: 700px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1 {
+  font-size: 3rem;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+
+/* features */
+.features {
+  overflow: auto;
+  padding: 100px 20px 100px 20px;
+}
+
+.feature {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.person {
+  display: block;
+  height: 500px;
+  background-image: url(../images/person.jpg);
+  background-size: cover;
+}
+
+/* reservation */
+
+.reservation {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  padding: 30px 0px;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+/* Nous trouver */
+.find-us {
+  padding: 100px 20px;
+  overflow: auto;
+}
+
+.find-us-elem {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.find-us-elem h2 {
+  margin-bottom: 0px;
+}
+
+.find-us-elem hr {
+  margin-bottom: 20px;
+}
+
+.chip {
+  display: inline-block;
+  width: 30px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.chip-purple {
+  background-color: #c800a1;
+}
+
+.chip-brown {
+  background-color: #6e4c1e;
+}
+
+/* contact us */
+.contact {
+  padding: 100px 20px 100px 20px;
+}
+
+.contact .container {
+  margin: auto;
+  max-width: 600px;
+}
+
+.contact .container form label {
+  display: block;
+  font-weight: 700;
+}
+
+.contact .container form input,
+textarea {
+  display: block;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-submit {
+  width: 100%;
+}

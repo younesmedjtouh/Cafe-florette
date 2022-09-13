@@ -1,0 +1,39 @@
+/* header */
+.nav-brand {
+  float: none;
+  text-align: center;
+}
+
+.navigation {
+  float: none;
+  text-align: center;
+}
+
+.navigation li {
+  float: none;
+}
+
+.nav-link {
+  padding: 10px;
+}
+
+/* vp */
+.vp-content {
+  padding-top: 50px;
+}
+
+.vp-content h1 {
+  font-size: 2rem;
+}
+
+/* features */
+.feature {
+  float: none;
+  width: 100%;
+}
+
+/* Nous trouver */
+.find-us-elem {
+  float: none;
+  width: 100%;
+}
